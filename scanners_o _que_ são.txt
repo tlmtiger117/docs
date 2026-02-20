@@ -1,6 +1,6 @@
+ 18/02/26
 
-
-----------------------------------------------------scanner, o que são e para que server----------------------------------------------------------------------
+|----------------------------------------Scanners_de_redserver-----------------------------------------------|
 
 ferramenta/tool: uma ferramenta seria um programa que ajuda o usuário a fazer alguma tarefa(nesse caso, um scanner de redes):
                 .ex: Nmap(network mapper): scanner de rede mais utilizado por testadores de segurança/galera geral em cibersec e redes.
@@ -37,5 +37,6 @@ scanners: são ferramentas utilizadas para analisar/descobrir informações numa
 
 isso é o básico de um scanner, mas oque eu queria deixar mesmo para quem estiver lendo isso é:
   .ferramentas não pensam, elas simplesmente executam algo externo(ação humana) e isso sim tem intenção, seja boa ou ruim.
+
 
          
