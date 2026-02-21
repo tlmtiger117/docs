@@ -20,3 +20,5 @@
 5- roteador:"resposta recebida, mandado pra quem perguntou"
 
 6- cliente:"certo, host ativo".
+
+- [!] link para o projeto finalizado de "sub-redes": https://github.com/tlmtiger117/projetos/blob/main/Projeto-Sub_Redes.txt
