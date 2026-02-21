@@ -7,7 +7,11 @@
 
 3- roteador: "blz, recebi esses dados, tenho acesso a rede da pergunta(por causa dos meus adptadores),
               vou repassar para o endereço de destino dessa outra rede"
-
+            - [!] sempre ative o forward(repasse noi roteador, sem isso, não tem como acessar outra rede/repassar dados).
+                 comando do forward(ubuntu server):sudo sysctl -w net.ipv4.ip_forward=1
+                 sempre que fechar a VM/resetar ela, tem que ativar o repasse de novo(tem confg permanente, mas não encontrei).
+                  
+                  
 4- host-rede2: recebi um ICMP, estou ativo, mandando resposta(reply) para quem perguntou
 
 5- máscara: "ip não é dessa rede, passando pro roteador"
