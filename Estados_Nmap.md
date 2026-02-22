@@ -34,8 +34,9 @@
   
    - Internet: Dados que sairam de alguma rede. pode ser qualquer coisa, até mesmo um scan.
    - firewall(host alvo): ele que decide o que fazer com esses dados que chegam da internet. Se ele tem regras que permite
-                          o tráfego, ele deixa passar para a próxima camada(SO do host alvo), se não, ele bloqueia (RST) ou
-                          simplesmente ignora (DROP).
+                          o tráfego, ele deixa passar para a próxima camada(SO do host alvo), se não, ele pode bloquear (RST) ou
+                          simplesmente ignora (DROP). tudo isso se ele for configurado pra fazer isso, se não, é o SO alvo
+                          que responde mandando [RST] ou algum outro aviso de rede.
      
      
    - SO: O sistema operacional é que lida com as portas, se ele permite conexão numa porta = ok, se não, não é possível acessar
@@ -70,9 +71,9 @@
   
     - fluxo nmap: Internet -> Firewall -> Sistema Operacional -> Serviço.
      
-    - open = sem firewall ativo, host ativo, porta aberta(tem serviço).
+    - open = host ativo, porta aberta(tem serviço).
      
-    - closed = sem firewall ativo, host ativo, porta acessível(ativo passa a sensação de estar aberto, o que não é verdade).
+    - closed = host ativo, porta acessível(ativo passa a sensação de estar aberto, o que não é verdade).
   
     - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou não ter algo)".
          
