@@ -75,7 +75,7 @@
      
     - closed = sem firewall host ativo, porta acessível, não ativo(ativo passa a sensação de esta aberto, oq ue não é verdade).
   
-    - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou nçao ter algo)".
+    - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou não ter algo)".
          
                 
     
