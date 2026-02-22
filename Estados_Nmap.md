@@ -38,9 +38,8 @@
                           simplesmente ignora (DROP).
      
      
-   - SO: O sistema operacional que lida com as portas, se ele permite conexão numa porta = ok, se não, não é possível acessar
-         o serviço dela(mais para scanners, o que importa mesmo é saber se tem algo, e não acessar diretamente).
-          - ele que manda
+   - SO: O sistema operacional é que lida com as portas, se ele permite conexão numa porta = ok, se não, não é possível acessar
+         o serviço dela(mas para scanners, o que importa mesmo é saber se tem algo, e não acessar diretamente).
      
 
 - Estados básicos do Nmap:
@@ -71,9 +70,9 @@
   
     - fluxo nmap: Internet -> Firewall -> Sistema Operacional -> Serviço.
      
-    - open = sem firewall, host ativo, porta aberta(tem serviço).
+    - open = sem firewall ativo, host ativo, porta aberta(tem serviço).
      
-    - closed = sem firewall host ativo, porta acessível, não ativo(ativo passa a sensação de esta aberto, oq ue não é verdade).
+    - closed = sem firewall ativo, host ativo, porta acessível(ativo passa a sensação de estar aberto, o que não é verdade).
   
     - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou não ter algo)".
          
