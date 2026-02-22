@@ -67,11 +67,15 @@
                 "não recebi uma resposta convincente do servidor alvo. não vou assumir estado algum, pois pode ter algo,
                  pode não ter ou pode haver algo bloqueando a comunicação(firewall)".
 
-[dicas]: Sempre lembre disso:
-        - Internet -> Firewall -> Sistema Operacional -> Serviço.
-        - open = sem firewall, host ativo, porta aberta(tem serviço).
-        - closed = sem firewall host ativo, porta acessível, não ativo(ativo passa a sensação de esta aberto, oq ue não é verdade).
-        - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou nçao ter algo)".
+- [dicas]: Sempre lembre disso:
+  
+    - fluxo nmap: Internet -> Firewall -> Sistema Operacional -> Serviço.
+     
+    - open = sem firewall, host ativo, porta aberta(tem serviço).
+     
+    - closed = sem firewall host ativo, porta acessível, não ativo(ativo passa a sensação de esta aberto, oq ue não é verdade).
+  
+    - filtered = "não tenho informação convincento sobre o host porta. vou assumir como filtered(pode ou nçao ter algo)".
          
                 
     
