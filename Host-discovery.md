@@ -26,7 +26,7 @@
   - link: https://github.com/tlmtiger117/docs/blob/main/Fluxo_da_Sub_Rede.md
 
 [Relato]: Descobri isso hoje estudando no meu LAB(rede interna controlada). algo simples(mandar nmap e olhar no wireshark), pode
-          revelar coisas nem pensavamos antes...
+          revelar coisas que nem pensavamos antes...
 
 
 
