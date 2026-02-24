@@ -3,8 +3,8 @@
 
   O que é: "Host-discovery" é uma técnica utilizada por scanners para mapear dispositivos numa rede (não portas, e sim hosts)
   
-   - Como aplicar esse técnica: Utilize a ferramenta de rede Nmpa(Network mapper) com as seguintes flags(opções):
-   - Comando completo: .nmap -vv -PR -sn 192.168.1.0/24
+   - Como aplicar essa técnica: Utilize a ferramenta de rede Nmap(Network mapper) com as seguintes flags(opções):
+   - Comando completo: nmap -vv -PR -sn 192.168.1.0/24
      
      ."-vv": Verbouse, mostra infos extrar do ue está contecendo por trás do scan(indispensável, na minha opnião)
        
