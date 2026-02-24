@@ -1,2 +1,2 @@
 # docs
-lugar dos arquivos e anotações que eu fizer.
+lugar dos meus arquivos e anotações que eu fizer no dia a dia .
