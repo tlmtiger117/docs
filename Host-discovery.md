@@ -6,7 +6,7 @@
    - Como aplicar essa técnica: Utilize a ferramenta de rede Nmap(Network mapper) com as seguintes flags(opções):
    - Comando completo: nmap -vv -PR -sn 192.168.1.0/24
      
-     ."-vv": Verbouse, mostra infos extrar do ue está contecendo por trás do scan(indispensável, na minha opnião)
+     ."-vv": Verbouse, mostra infos extrar do que está contecendo por trás do scan(indispensável, na minha opnião)
        
      ."-PR": Expecifica para o nmap utilizar o ARP-ping(técnica de dedscoberta de hosts em redes LAN) para iniciar o scanner.
        
