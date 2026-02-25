@@ -13,7 +13,9 @@
  
     - ex:
         . Você(cria pacotes) -> rede(switch) -> endpoint(dispositivo final,recebe ou rejeita os pacotes).
-        .Switch: repassa os dados em redes LAN, manda os dados para todos, mas só o especificado pelo cliente é quem reponpode.
+        .Switch: repassa os dados em redes LAN, manda os dados para o MAC e porta especificado.
+          
+    
 
 
 - INPUT: É todo tráfego cujo o destino final é você(sem repasse, o pacote chega e fica com você).
@@ -26,7 +28,7 @@
 - FORWARD: Camada de repasse de dados, ele não é um endpoint, mas sim, um "repassador de informações/dados" da rede.
   
     - ex:
-        .Você( cria pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o processo inverso).
+        .pc(cria pacotes) -> sua rede -> roteador(você) -> internet -> rede do endpoint -> endpoint(depois faz o processo inverso).
         .Percebeu que ele não fica com os dados? ele simplemente... repassa.
 
 
