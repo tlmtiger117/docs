@@ -10,19 +10,22 @@
 
 
 - OUTPUT: Tráfego gerado pelo seu dispositivo, cuja função é criar pacotes, sair para a rede e de lá para o endpoit.
-     ex:
+ 
+    - ex:
         . Você(cria pacotes) -> rede(switch) -> endpoint(dispositivo final,recebe ou rejeita os pacotes).
         .Switch: repassa os dados em redes LAN, manda os dados para todos, mas só o especificado pelo cliente é quem reponpode.
 
 
 - INPUT: É todo tráfego cujo o destino final é você(sem repasse, o pacote chega e fica com você).
         . É uma camada muito protegida por justamente ser o trafego externo chegando em você(tráfego de outro pc).
-     ex:
+  
+    - ex:
         . Tráfego externo(pacotes chegando) -> sua rede(vai para sua interface) -> você(firewall filtrando pacotes ou não).
   
 
 - FORWARD: Camada de repasse de dados, ele não é um endpoint, mas sim, um "repassador de informações/dados" da rede.
-     ex:
+  
+    - ex:
         .Você( cria pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o porcesso inverso).
         .Percebeu que ele não fica com os dados? ele simplemente repassa...
 
