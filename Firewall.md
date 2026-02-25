@@ -26,8 +26,8 @@
 - FORWARD: Camada de repasse de dados, ele não é um endpoint, mas sim, um "repassador de informações/dados" da rede.
   
     - ex:
-        .Você( cria pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o porcesso inverso).
-        .Percebeu que ele não fica com os dados? ele simplemente repassa...
+        .Você( cria pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o processo inverso).
+        .Percebeu que ele não fica com os dados? ele simplemente... repassa.
 
 
 - [Aprendizado]: Reforcei conceitos que já utilize antigamente. Sempre útil revisar conteúdos anteriores.
