@@ -5,7 +5,7 @@
                      ele é fundamental quando se o assunto se trata em proteger dispositivos(principalmente contra scanners).
   
   
-- O que são chains: CHAINS ou camadas, são os nomes das etapas que um pacote pode fazer para chegar num destino final(endpoint).
+- O que são chains: CHAINS , são os nomes das etapas/decisão que um pacote pode fazer para chegar num destino final(endpoint).
                     .OUTPUT,INPUT e FORWARD.
 
 
