@@ -1,11 +1,11 @@
 # 25/02/26
 # Firewall, INPUT,OUTPUT e FORWARD
 
-- O que é um firewall: Firewall é um programa que atua diretaemnte no kernel do pc(o kernel que decide as regras do pc) por isso
-                     ele é fundamental quando se trata em protejer dispositivos(principalmente contra scanners).
+- O que é um firewall: Firewall é um programa que atua diretamente no kernel do pc(o kernel que decide as regras do pc) por isso
+                     ele é fundamental quando se o assunro se trata em protejer dispositivos(principalmente contra scanners).
   
-- O que são chains: CHAINS ou camadas, são os nomes das etapas que um pacote pode fazer para chegar num destino
-                    (OUTPUT,INPUT e FORWARD).
+- O que são chains: CHAINS ou camadas, são os nomes das etapas que um pacote pode fazer para chegar num destino final(endpoint).
+                    .OUTPUT,INPUT e FORWARD.
 
 
 - OUTPUT: Tráfego gerado pelo seu dispositivo, cuja função é criar pacotes, sair para a rede e de lá para o endpoit.
@@ -17,16 +17,16 @@
 - INPUT: É todo tráfego cujo o destino final é você(sem repasse, o pacote chega e fica com você).
      . É uma camada muito protegida por justamente ser o trafego externo chegando em você(tráfego de outro pc).
   ex:
-     . Tráfego externo(pacotes chgando) -> sua rede(sai para sua interface) -> você(firewall filtrando pacotes).
+     . Tráfego externo(pacotes chgando) -> sua rede(vai para sua interface) -> você(firewall filtrando pacotes ou não).
   
 
-- FORWARD: Camada de repasse de dados, ele não é um endpoint, mas sim, um "repassador de informações/dados"
+- FORWARD: Camada de repasse de dados, ele não é um endpoint, mas sim, um "repassador de informações/dados" da rede.
   ex:
-     .Você(pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o porcesso inverso).
-     .Percebeu que ele não fica com os dados? ele simplemente repassa.
+     .Você( cria pacotes) -> sua rede -> roteador -> internet -> rede do endpoint -> endpoint(depois faz o porcesso inverso).
+     .Percebeu que ele não fica com os dados? ele simplemente repassa...
 
 
-  [Aprendizado]: Refocei conceitos que já utilizei antigamente. Sempre útil revisar conteúdos anteriores.
+  [Aprendizado]: Reforcei conceitos que já utilize antigamente. Sempre útil revisar conteúdos anteriores.
   
     
 
