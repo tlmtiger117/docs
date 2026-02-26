@@ -1,9 +1,9 @@
 # 26/02/26
 # Analisando Comportamento Nmap
 
-- Nmap(Networke mapper):ferramenta utilisada para análises de rede(hosts,portas,firewall...) e dispositivos em regral da rede.
+- Nmap(Network mapper):ferramenta utilisada para análises de rede(hosts,portas,firewall...) e dispositivos em regral da rede.
 - Telnet: Cliente TCP padrãom utilisado para estabelecer conexões com servidores(rápido e fácil)
-- Wireshark: Sniffer de rede("captuador"), captura todo tráfego da sua interface de rede(precisa estar presente nela).
+- Wireshark: Sniffer de rede("caçador"), captura todo tráfego da sua interface de rede(precisa estar presente nela).
 - FTP: Protocólo de tranfêrencia de dados Remoto em uma rede. Atua somente em uma pasta especificada pelo dono(server) FTP.
 
 
@@ -19,18 +19,18 @@
   
   
 - Nmap: Faz toda a parte de iniciar uma conexão, mas na hora de confirmar(ACK final), ele manda um RST, encerrando imediatamente
-        a conexão com o servidor FTP(-sS)
+        a conexão com o servidor FTP(-sS).
   
 - [!] O Nmap manda pacotes com tamanhos idênticos, Isso pode ser usado por ADMs de rede para detectar comportamentos conhecidos
          de scanners de rede(pois a maioria dos scanners que existem, se inspiram no Nmap).
   
   
 - Wireshark: Tem total visão da rede(em tempo real) de tudo que acontece. Ela que observou esses comportamentos do Telnet e do Nmap
-    - Como todo comportamento numa rede pode ser detectado, ele desenpenha o paple da "análise ativa", sempre buscando
+    - Como todo comportamento numa rede pode ser detectado, ele desenpenha o papel da "análise ativa", sempre buscando
       comportamentos fora do padrão.
   
 - [!] Aviso, essas ferramentas não funcionam sozinhas. Elas podem ser utilisadas tanto para proteger quanto para atacar
-      (pentest autorizado ou cibercriminoso), por isso, sempre use esses conehciemntos para o bem dos outros Nunca para prejudicar
+      (pentest autorizado ou cibercriminoso), por isso, sempre use esse conehciemnto para o bem dos outros, Nunca para prejudicar
       alguem.
        
 
