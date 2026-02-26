@@ -1,7 +1,7 @@
 # 26/02/26
 # Analisando Comportamento Nmap
 
-- Nmap(Network mapper):ferramenta utilizada para análises de rede(hosts,portas,firewall...) e dispositivos em regral da rede.
+- Nmap(Network mapper):ferramenta utilizada para análises de rede(hosts,portas,firewall...) e dispositivos em geral da rede.
 - Telnet: Cliente TCP padrão utilizado para estabelecer conexões com servidores(rápido e fácil)
 - Wireshark: Sniffer de rede("caçador"), captura todo tráfego da sua interface de rede(precisa estar presente nela).
 - FTP: Protocolo de tranferencia de dados Remoto em uma rede. Atua somente em uma pasta especificada pelo dono(server) FTP.
