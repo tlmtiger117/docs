@@ -42,10 +42,11 @@ Ferramenta/Tool: uma ferramenta seria um programa que ajuda o usuário a fazer a
    - vulnerabilidades: programas e serviços desatualizados, rede mal configurada, firewall quebrada/deixando coisas passarem etc.
      - [!] isso pode ser utilizado por atacantes maliciosos como possíveis vetores de ataque(caminhos possíveis de exploração).
        
-   Isso é o básico de um scanner, mas oque eu queria deixar mesmo para quem estiver lendo isso é:
-  .Ferramentas não pensam, elas simplesmente executam algo externo(ação humana) e isso sim tem intenção, seja boa ou ruim.
+  - Isso é o básico de um scanner, mas oque eu queria deixar mesmo para quem estiver lendo isso é:
+     - Ferramentas não pensam, elas simplesmente executam algo externo(ação humana) e isso sim tem intenção, seja boa ou ruim.
 
 
          
+
 
 
